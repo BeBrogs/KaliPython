@@ -1,0 +1,92 @@
+Why are we coding in python
+
+Writing own tools differentiates you from those using pre-made tools
+
+'Script kiddy' - Someone who only uses tools w/out knowing about the programming behind
+
+
+The tools you use from other people will break sometime
+
+
+Learning to code will let you use whatever hacking tool you want for whenever you want
+
+
+
+Why use python?
+1. Python is the hackers programming language as it is a scripting language & it allows us
+ to create programs in a quick-pace
+
+
+2. Any of these script/hack tools will take longer comparitavely with the likes of c, c++, c#
+Python also easier than C
+
+if you understand syntax you'll be able to understand the behind the scenes of our tools better
+
+
+How to open python2 interpreter in kali:
+
+simply in your pwd type python
+
+Why use interpreter? - Helps w/ live Testing as it gives error right away
+
+
+if a line of ours has executed properly we will be returned to the
+
+>>>
+
+in the py interpreter
+
+eg:
+
+	import os <-- will work & return us to: >>>
+
+However,
+	import oss <-- oss isn't an existing library, will return error then back to: >>>
+
+
+EXIT INTERPRETER: 
+exit()
+
+
+
+PYTHON3:
+type	root@kali:~python3
+
+
+
+HOW TO CREATE A PYTHON3 File in terminal:
+
+
+nano myFileName.py
+
+Q. What does keyword nano do?
+A. Basically creates new file & opens it in python idle 
+
+Now we specify our path to the python library:
+	
+#!/usr/bin/python
+
+
+TO SAVE:
+crtl o 	- Write out
+enter file name
+
+
+
+TO EXIT PYTHON IDLE KALI
+ctrl x 	- Exit
+
+
+
+TO MAKE FILE EXECUTABLE
+METHOD 1:
+	type in current directory:
+
+	python3 myFileName.py 
+
+METHOD 2:
+	type in current directory:
+
+	chmod +x myFileName.py		||	Pseudocode:	(change mod) (into executable) myFileName.py
+
+	./myFileName.py			|| Runs file like any other file in terminal
