@@ -46,7 +46,7 @@ mySha512.update(toHash.encode())
 print ("\n\nIn SHA512: \n" + str(mySha512.hexdigest()))
 print ("Digest: \n" + str(mySha512.digest()))
 
-                                                         print ("\n\nSHA3 Hashes: ")
+print ("\n\nSHA3 Hashes: ")
 #SHA3 - introduced by NIST as backup plan for when SHA2 Cracks w/ sp>
 #SHA3 is unlikely to be broken anytime soon
 mySHA3_256 = hashlib.sha3_256()
